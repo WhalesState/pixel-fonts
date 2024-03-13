@@ -3,10 +3,10 @@ FontName: FivePixelsFont
 FullName: Five Pixels Font
 FamilyName: FivePixelsFont
 Weight: Medium
-Copyright: MounirTohami
+Copyright: (c) - 2024 Mounir Tohami (Whales State) https://mounirtohami.itch.io
 Version: 001.000
 ItalicAngle: 0
-UnderlinePosition: -149
+UnderlinePosition: -148
 UnderlineWidth: 49
 Ascent: 1000
 Descent: 0
@@ -15,14 +15,14 @@ sfntRevision: 0x00010000
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
-XUID: [1021 465 1097079576 30070]
+XUID: [1021 465 1097079576 27012]
 StyleMap: 0x0040
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1280473793
-ModificationTime: 1709674702
+ModificationTime: 1710294887
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -65,7 +65,7 @@ ShortTable: maxp 16
   1
   0
   99
-  40
+  39
   9
   0
   0
@@ -79,7 +79,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "" "MounirTohami:FivePixelsFont" "" "" "" "" "" "Mounir Tohami" "This font was created using PixelForge and Edited with FontForge for final release." "https://mounirtohami.itch.io/five-pixels-font" "https://mounirtohami.itch.io" "SIL Open Font License (OFL)" "https://openfontlicense.org/"
+LangName: 1033 "" "" "" "MounirTohami:FivePixelsFont" "" "Version 001.000" "" "" "" "Mounir Tohami" "This font was created using PixelForge and Edited with FontForge for final release." "https://mounirtohami.itch.io/five-pixels-font" "https://mounirtohami.itch.io" "SIL Open Font License (OFL)" "https://openfontlicense.org/"
 GaspTable: 1 65535 0 0
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -87,7 +87,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 26 17
+WinInfo: 0 51 17
 BeginPrivate: 0
 EndPrivate
 BeginChars: 65539 99
@@ -193,16 +193,16 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 5,0,-1
- 0 200 l 5,1,-1
- 200 200 l 5,2,-1
- 200 0 l 5,3,-1
- 0 0 l 5,0,-1
-0 400 m 5,4,5
- 0 400 0 400 0 1000 c 5,6,-1
- 200 1000 l 5,7,-1
- 200 400 l 5,8,-1
- 0 400 l 5,4,5
+0 0 m 1,0,-1
+ 0 200 l 1,1,-1
+ 200 200 l 1,2,-1
+ 200 0 l 1,3,-1
+ 0 0 l 1,0,-1
+0 400 m 1,4,5
+ 0 400 0 400 0 1000 c 1,6,-1
+ 200 1000 l 1,7,-1
+ 200 400 l 1,8,-1
+ 0 400 l 1,4,5
 EndSplineSet
 EndChar
 
@@ -541,11 +541,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-600 600 m 5,0,-1
- 600 400 l 5,1,2
- 600 400 600 400 0 400 c 5,3,-1
- 0 600 l 5,4,-1
- 600 600 l 5,0,-1
+600 600 m 1,0,-1
+ 600 400 l 1,1,2
+ 600 400 600 400 0 400 c 1,3,-1
+ 0 600 l 1,4,-1
+ 600 600 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -599,16 +599,16 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 5,0,1
- 0 0 0 0 0 1000 c 5,2,3
- 0 1000 0 1000 600 1000 c 5,4,5
- 600 1000 600 1000 600 0 c 5,6,-1
- 0 0 l 5,0,1
-400 200 m 5,7,8
- 400 200 400 200 400 800 c 5,9,-1
- 200 800 l 5,10,11
- 200 800 200 800 200 200 c 5,12,-1
- 400 200 l 5,7,8
+0 0 m 1,0,1
+ 0 0 0 0 0 1000 c 1,2,3
+ 0 1000 0 1000 600 1000 c 1,4,5
+ 600 1000 600 1000 600 0 c 1,6,-1
+ 0 0 l 1,0,1
+400 200 m 1,7,8
+ 400 200 400 200 400 800 c 1,9,-1
+ 200 800 l 1,10,11
+ 200 800 200 800 200 200 c 1,12,-1
+ 400 200 l 1,7,8
 EndSplineSet
 EndChar
 
@@ -1003,14 +1003,14 @@ SplineSet
  200 800 l 1,3,-1
  200 0 l 1,4,-1
  0 0 l 1,0,1
-800 0 m 2,5,6
+800 0 m 1,5,6
  800 0 800 0 400 0 c 1,7,8
  400 0 400 0 400 600 c 1,9,10
  400 600 400 600 800 600 c 1,11,12
  800 600 800 600 800 200 c 1,13,-1
  1000 200 l 1,14,-1
  1000 0 l 1,15,-1
- 800 0 l 2,5,6
+ 800 0 l 1,5,6
 1000 200 m 1,16,17
  1000 200 1000 200 1000 800 c 1,18,-1
  1200 800 l 1,19,20
@@ -1517,26 +1517,26 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-600 0 m 5,0,1
- 600 0 600 0 600 400 c 5,2,-1
- 800 400 l 5,3,-1
- 800 0 l 5,4,-1
- 600 0 l 5,0,1
-0 0 m 5,5,6
- 0 0 0 0 0 1000 c 5,7,8
- 0 1000 0 1000 600 1000 c 5,9,-1
- 600 800 l 5,10,-1
- 800 800 l 5,11,-1
- 800 600 l 5,12,-1
- 600 600 l 5,13,-1
- 600 800 l 5,14,15
- 600 800 600 800 200 800 c 5,16,-1
- 200 600 l 5,17,18
- 200 600 200 600 600 600 c 5,19,-1
- 600 400 l 5,20,21
- 600 400 600 400 200 400 c 5,22,23
- 200 400 200 400 200 0 c 5,24,-1
- 0 0 l 5,5,6
+600 0 m 1,0,1
+ 600 0 600 0 600 400 c 1,2,-1
+ 800 400 l 1,3,-1
+ 800 0 l 1,4,-1
+ 600 0 l 1,0,1
+0 0 m 1,5,6
+ 0 0 0 0 0 1000 c 1,7,8
+ 0 1000 0 1000 600 1000 c 1,9,-1
+ 600 800 l 1,10,-1
+ 800 800 l 1,11,-1
+ 800 600 l 1,12,-1
+ 600 600 l 1,13,-1
+ 600 800 l 1,14,15
+ 600 800 600 800 200 800 c 1,16,-1
+ 200 600 l 1,17,18
+ 200 600 200 600 600 600 c 1,19,-1
+ 600 400 l 1,20,21
+ 600 400 600 400 200 400 c 1,22,23
+ 200 400 200 400 200 0 c 1,24,-1
+ 0 0 l 1,5,6
 EndSplineSet
 EndChar
 
@@ -2436,26 +2436,26 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-600 0 m 5,0,1
- 600 0 600 0 600 400 c 5,2,-1
- 800 400 l 5,3,-1
- 800 0 l 5,4,-1
- 600 0 l 5,0,1
-0 0 m 5,5,6
- 0 0 0 0 0 1000 c 5,7,8
- 0 1000 0 1000 600 1000 c 5,9,-1
- 600 800 l 5,10,-1
- 800 800 l 5,11,-1
- 800 600 l 5,12,-1
- 600 600 l 5,13,-1
- 600 800 l 5,14,15
- 600 800 600 800 200 800 c 5,16,-1
- 200 600 l 5,17,18
- 200 600 200 600 600 600 c 5,19,-1
- 600 400 l 5,20,21
- 600 400 600 400 200 400 c 5,22,23
- 200 400 200 400 200 0 c 5,24,-1
- 0 0 l 5,5,6
+600 0 m 1,0,1
+ 600 0 600 0 600 400 c 1,2,-1
+ 800 400 l 1,3,-1
+ 800 0 l 1,4,-1
+ 600 0 l 1,0,1
+0 0 m 1,5,6
+ 0 0 0 0 0 1000 c 1,7,8
+ 0 1000 0 1000 600 1000 c 1,9,-1
+ 600 800 l 1,10,-1
+ 800 800 l 1,11,-1
+ 800 600 l 1,12,-1
+ 600 600 l 1,13,-1
+ 600 800 l 1,14,15
+ 600 800 600 800 200 800 c 1,16,-1
+ 200 600 l 1,17,18
+ 200 600 200 600 600 600 c 1,19,-1
+ 600 400 l 1,20,21
+ 600 400 600 400 200 400 c 1,22,23
+ 200 400 200 400 200 0 c 1,24,-1
+ 0 0 l 1,5,6
 EndSplineSet
 EndChar
 

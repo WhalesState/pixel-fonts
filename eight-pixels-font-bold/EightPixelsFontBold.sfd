@@ -2,11 +2,11 @@ SplineFontDB: 3.2
 FontName: EightPixelsFontBold
 FullName: Eight Pixels Font Bold
 FamilyName: EightPixelsFont
-Weight: Bold
-Copyright: MounirTohami
+Weight: Medium
+Copyright: (c) - 2024 Mounir Tohami (Whales State) https://mounirtohami.itch.io
 Version: 001.000
 ItalicAngle: 0
-UnderlinePosition: -149
+UnderlinePosition: -147
 UnderlineWidth: 49
 Ascent: 1000
 Descent: 0
@@ -15,14 +15,14 @@ sfntRevision: 0x00010000
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
-XUID: [1021 465 1097079576 16998]
+XUID: [1021 465 1097079576 25314]
 StyleMap: 0x0040
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1280473793
-ModificationTime: 1709671973
+ModificationTime: 1710294395
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -65,7 +65,7 @@ ShortTable: maxp 16
   1
   0
   99
-  48
+  45
   5
   0
   0
@@ -79,7 +79,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "" "MounirTohami:EightPixelsFontBold" "" "" "" "" "" "Mounir Tohami" "This font was created using PixelForge and Edited with FontForge for final release." "https://mounirtohami.itch.io/eight-pixels-font-bold" "https://mounirtohami.itch.io" "SIL Open Font License (OFL)" "https://openfontlicense.org/"
+LangName: 1033 "" "" "" "MounirTohami:EightPixelsFontBold" "" "Version 001.000" "" "" "" "Mounir Tohami" "This font was created using PixelForge and Edited with FontForge for final release." "https://mounirtohami.itch.io/eight-pixels-font-bold" "https://mounirtohami.itch.io" "SIL Open Font License (OFL)" "https://openfontlicense.org/"
 GaspTable: 1 65535 0 0
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -87,9 +87,10 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 25 25 17
+WinInfo: 0 51 17
 BeginPrivate: 0
 EndPrivate
+TeXData: 1 0 0 262144 131072 87381 786432 1048576 87381 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 65539 99
 
 StartChar: .notdef
@@ -1315,19 +1316,19 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-375 0 m 5,0,1
- 375 0 375 0 375 375 c 5,2,-1
- 250 375 l 5,3,4
- 250 375 250 375 250 0 c 5,5,6
- 250 0 250 0 0 0 c 5,7,8
- 0 0 0 0 0 1000 c 5,9,10
- 0 1000 0 1000 250 1000 c 5,11,12
- 250 1000 250 1000 250 625 c 5,13,-1
- 375 625 l 5,14,15
- 375 625 375 625 375 1000 c 5,16,17
- 375 1000 375 1000 625 1000 c 5,18,19
- 625 1000 625 1000 625 0 c 5,20,-1
- 375 0 l 5,0,1
+375 0 m 1,0,1
+ 375 0 375 0 375 375 c 1,2,-1
+ 250 375 l 1,3,4
+ 250 375 250 375 250 0 c 1,5,6
+ 250 0 250 0 0 0 c 1,7,8
+ 0 0 0 0 0 1000 c 1,9,10
+ 0 1000 0 1000 250 1000 c 1,11,12
+ 250 1000 250 1000 250 625 c 1,13,-1
+ 375 625 l 1,14,15
+ 375 625 375 625 375 1000 c 1,16,17
+ 375 1000 375 1000 625 1000 c 1,18,19
+ 625 1000 625 1000 625 0 c 1,20,-1
+ 375 0 l 1,0,1
 EndSplineSet
 EndChar
 
@@ -2104,10 +2105,12 @@ SplineSet
  500 625 l 1,9,-1
  625 625 l 1,10,11
  625 625 625 625 625 375 c 1,12,13
- 625 375 625 375 250 375 c 1,14,-1
- 250 250 l 1,15,16
- 250 250 250 250 625 250 c 1,17,18
- 625 250 625 250 625 0 c 1,19,-1
+ 625 375 625 375 375 375 c 1,14,15
+ 375 375 375 375 375 500 c 1,16,17
+ 375 500 375 500 250 500 c 1,18,-1
+ 250 250 l 1,19,20
+ 250 250 250 250 625 250 c 1,21,22
+ 625 250 625 250 625 0 c 1,23,-1
  125 0 l 1,0,-1
 EndSplineSet
 EndChar
